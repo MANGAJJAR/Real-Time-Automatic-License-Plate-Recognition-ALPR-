@@ -1,6 +1,18 @@
 # Automatic License Plate Recognition (ALPR) System
 
+[![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=flat&logo=python&logoColor=white)](https://python.org)
+[![YOLOv8](https://img.shields.io/badge/YOLOv8-Ultralytics-00599C?style=flat)](https://ultralytics.com)
+[![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-5C3EE8?style=flat&logo=opencv&logoColor=white)](https://opencv.org)
+[![EasyOCR](https://img.shields.io/badge/EasyOCR-OCR-blue?style=flat)](https://github.com/JaidedAI/EasyOCR)
+[![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)](https://pytorch.org)
+
 A robust real-time Automatic License Plate Recognition pipeline powered by **YOLOv8**, **EasyOCR**, **OpenCV**, and **Pandas**.
+
+## Quick Summary
+
+| Project | What it does | Stack |
+| :--- | :--- | :--- |
+| **Real-Time Automatic License Plate Recognition (ALPR)** | Detects and extracts vehicle license plates from live video feeds and images using custom YOLOv8 detection, OpenCV denoising/Otsu thresholding, multi-segment OCR text assembly, and lock-safe CSV logging with cooldown deduplication. | Python, YOLOv8, EasyOCR, OpenCV, PyTorch, Pandas |
 
 ---
 
